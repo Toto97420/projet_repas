@@ -1,9 +1,9 @@
 <?php
     class Utilisateur {
         private $id ;
-        private $nom;
-        private $description;
-        private $prix;
+        private $login;
+        private $password;
+       
 
         
 
@@ -27,62 +27,44 @@
                 return $this;
         }
 
+       
+
         /**
-         * Get the value of nom
+         * Get the value of login
          */ 
-        public function getNom()
+        public function getLogin()
         {
-                return $this->nom;
+                return $this->login;
         }
 
         /**
-         * Set the value of nom
+         * Set the value of login
          *
          * @return  self
          */ 
-        public function setNom($nom)
+        public function setLogin($login)
         {
-                $this->nom = $nom;
+                $this->login = $login;
 
                 return $this;
         }
 
         /**
-         * Get the value of description
+         * Get the value of password
          */ 
-        public function getDescription()
+        public function getPassword()
         {
-                return $this->description;
+                return $this->password;
         }
 
         /**
-         * Set the value of description
+         * Set the value of password
          *
          * @return  self
          */ 
-        public function setDescription($description)
+        public function setPassword($password)
         {
-                $this->description = $description;
-
-                return $this;
-        }
-
-        /**
-         * Get the value of prix
-         */ 
-        public function getPrix()
-        {
-                return $this->prix;
-        }
-
-        /**
-         * Set the value of prix
-         *
-         * @return  self
-         */ 
-        public function setPrix($prix)
-        {
-                $this->prix = $prix;
+                $this->password = $password;
 
                 return $this;
         }
