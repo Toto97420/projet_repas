@@ -14,7 +14,7 @@
             <a class="nav-link " href="#">Notre carte</a>
         </li>
      
-        <a class="btn btn-dark"  href="connexion.php" role="button">admin</a>
+        <a class="btn btn-dark"  href="connexion.html" role="button">admin</a>
     </ul>
 </head>
 <body>
