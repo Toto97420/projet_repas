@@ -3,8 +3,6 @@
         private $id ;
         private $login;
         private $password;
-        private $de;
-       
 
         
 
